@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Surprise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        #questions, #proposal {
+            margin: 20px auto;
+            max-width: 400px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .yes {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .no {
+            background-color: #f44336;
+            color: white;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        #message {
+            color: #ff0000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="questions"></div>
+
+    <div id="proposal" style="display: none;">
+        <h1>Will you be with me, <span id="person-name"></span>?</h1>
+        <p>❤️ Surprise! ❤️</p>
+    </div>
+
+    <script>
+        const questions = [
+            "Are you ready for the surprise?",
+            "Something is coming.",
+            "Are you excited?",
+            "Do you love surprises?"
+        ];
+        let currentQuestion = 0;
+        let name = 'Anjali ❤️'; // Change this name in the code as needed
+        let yesScale = 1; // Scale factor for Yes button
+
+        showQuestion();
+
+        function showQuestion() {
+            if (currentQuestion < questions.length) {
+                document.getElementById('questions').innerHTML = `
+                    <h2>${questions[currentQuestion]}</h2>
+                    <div id="message"></div><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Surprise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        #questions, #proposal {
+            margin: 20px auto;
+            max-width: 400px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .yes {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .no {
+            background-color: #f44336;
+            color: white;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        #message {
+            color: #ff0000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="questions"></div>
+
+    <div id="proposal" style="display: none;">
+        <h1>Will you marry me, <span id="person-name"></span>?</h1>
+        <p>❤️ Surprise! ❤️</p>
+    </div>
+
+    <script>
+        const questions = [
+            "Are you ready for the surprise?",
+            "Something is coming.",
+            "Are you excited?",
+            "Do you love surprises?"
+        ];
+        let currentQuestion = 0;
+        let name = 'Anjali❤️'; // Change this name in the code as needed
+        let yesScale = 1; // Scale factor for Yes button
+
+        showQuestion();
+
+        function showQuestion() {
+            if (currentQuestion < questions.length) {
+                document.getElementById('questions').innerHTML = `
+                    <h2>${questions[currentQuestion]}</h2>
+                    <div id="message"></div>
